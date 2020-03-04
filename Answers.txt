@@ -1,0 +1,7 @@
+- 15th element is 1220
+- time complexity regarding the nth element is O(n): for calculation of one element we need time = c, so time for nth element = c * n; 
+  space complexity regarding the nth element is O(n): for storage of one element we need c bytes, so nth element c * n 
+- clean code principles: I wasn't use language specific rules, wrote simple and readable for anyone read the code to easily understand
+Bonus: (recursive function)
+- time complexity of the recursive function is O(2^n): each call of the function calls the function twice
+  space complexity of the recursive function is O(n): each function call will be stored in the program stack => nth calls
